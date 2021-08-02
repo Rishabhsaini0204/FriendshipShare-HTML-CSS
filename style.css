@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+width: 100%;
+height: 97vw;
+background: #000000;
+background-size: cover;
+}
+
+
+.wave-1{
+    width: 100%;
+    height: 250px;
+        position: relative;
+}
+
+.wave-2{
+    width: 100%;
+    height: 200px;
+    margin-top: -167px;
+    position: relative;
+}
+.heart-gif{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 20vw;
+    left: 950px
+}
+.heart-gif2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 45vw;
+    left: 950px
+}
+.heart-gif3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 25vw;
+    left: 50px
+}
+.heart-gif4{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 45vw;
+    left: 50px
+}
+.heart-gif5{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 25vw;
+    left: 500px
+}
+.heart-gif6{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 45vw;
+    left: 500px
+}
+.friend-png{
+    width: auto;
+    height: 800px;
+    position:relative;
+    margin-left: 280px;
+
+    
+  } 
+.section
+{
+    width:100%;
+    height:120vw;
+    background-color:#000000;
+    overflow:hidden;
+  }
+  .full-form{
+    font-size:5vw;
+    text-align:left;
+    position:relative;
+    top:3vw;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin-left:20vw;
+    z-index:5;
+  }
+ span{
+    color:#ff0606;
+    margin-right: 20px;
+    font-size:11vw;  
+  } 
+span:hover{
+    color: rgb(157, 255, 0);
+    font-size:8vw
+}
+ 
+  a{ 
+    width:250px; 
+    height:40px; 
+    text-align:center;  
+    font-family: 'Orelega One', cursive; 
+    display:flex; 
+    color: white;
+    align-items:center; 
+    justify-content:center; 
+    text-decoration:none; 
+    backdrop-filter:blur(10px); 
+    position: absolute; 
+     margin-top: 150px;
+     margin-left:500px;
+      box-shadow: inset 5px 5px 5px rgb(241, 0, 0), 
+                inset -5px -5px 15px rgba(255,255,255,0.1), 
+                5px 5px 5px rgba(7, 255, 20, 0.945), 
+                -5px -5px 15px rgba(255,255,255,0.1); 
+    border-radius: 25px;   
+  }
+
+  /* Hover Effect In Socail Link */
+  @import url('https://fonts.google.com/specimen/Source+Serif+Pro#standard-styles');
+*{
+margin: 0;
+font-family: 'Bold 700', 'italic';
+padding: 0;
+}
+
+.hero{
+ width: 100%;
+ height: 100vh;
+ background: #f1f9ff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+h1{
+    background-color: white;
+        margin-top: 20px;
+        border-radius: 50px;
+          color: rgb(0, 0, 0);
+          font-size: 100px;
+          text-align: center;
+          font-family: sans-serif;   
+    animation: text 5s infinite linear;
+}
+
+@keyframes text {
+    25%{
+        transform: translateY(100px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+}
+
+h1:hover{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(-45deg,#ed1c94,#ffec17);
+    transform: translateY(-10px);
+}
+
+.social-link{
+display: flex;
+}
+
+.social-link a{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin: 0 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.05); 
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+.social-link a .fab{
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: 00.5s;
+    
+}
+.social-link a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+border-radius: 50%;
+    top: -90px;
+    left: 0;
+    background: linear-gradient(-45deg,#ed1c94,#ffec17);
+    position: absolute;
+    transition: 0.5s;
+}
+
+.social-link a:hover:after{
+top: 0;
+
+}
+.social-link a:hover .fab{
+    color: #fff;
+}
+.social-link a:hover{
+    transform: translateY(-10px);
+}
